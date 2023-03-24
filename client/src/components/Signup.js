@@ -97,7 +97,7 @@ function Signup({ setIsLoggedIn }) {
 
         <center>
           <p className="forgot-password text-right">
-            Already Signuped <Link to="/login">Login?</Link>
+            Already registered <Link to="/login">Login?</Link>
           </p>
         </center>
       </form>
