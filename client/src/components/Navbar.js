@@ -9,7 +9,7 @@ function Navbar() {
         {/* your brand logo or name goes here */}
       </div>
       <ul>
-        
+        {/* login link */}
         <li>
           <Link to='/login'>Log out</Link>
         </li>
