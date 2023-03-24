@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# React To-Do List App
+This is a React-based to-do list application that allows users to sign up, log in, create, update, view, and delete their to-do lists.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+To get started with the application, follow these steps:
 
-## Available Scripts
+Clone this repository to your local machine.
 
-In the project directory, you can run:
+     git@github.com:LinexMugambi/my-todos.git
+Install the necessary dependencies by running 
 
-### `npm start`
+     npm install.
+Start the application by running npm start.
+Dependencies
+This application requires the following dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- React Router DOM
+### Features
+The React To-Do List App comes with the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Sign Up
+Users can sign up for an account by providing their email address and a password.
 
-### `npm test`
+### Log In
+Users can log in to their account by providing their email address and password.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create To-Do
+Users can create a new to-do item by providing a title
 
-### `npm run build`
+### Update To-Do
+Users can update an existing to-do item by modifying its title
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### View To-Do
+Users can view and check their to-do list, which displays all of their current to-do items.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Delete To-Do
+Users can delete an existing to-do item by selecting the "Delete" option next to the item in their to-do list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
+To use the application, follow these steps:
 
-### `npm run eject`
+Sign up for an account by providing your email address and a password.
+Log in to your account by providing your email address and password.
+Create a new to-do item by providing a title, description, and deadline.
+Update an existing to-do item by modifying its title
+View your to-do list to see all of your current to-do items.
+Delete an existing to-do item by selecting the "Delete" option next to the item in your to-do list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author: LINEX MUGAMBI
+## License
+This project is licensed under the <b>MIT License. 
