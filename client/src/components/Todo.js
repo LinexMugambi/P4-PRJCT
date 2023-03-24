@@ -44,11 +44,11 @@ function Todo() {
   return (
     <div className="todoapp stack-large">
       <Navbar />
-      <h1>My List</h1>
+      <h1>My TODOS</h1>
       <form onSubmit={handleAddItem}>
         <h2 className="label-wrapper">
           <label htmlFor="new-item-input" className="label__lg">
-            What needs to be done?
+            TASKS?
           </label>
         </h2>
         <input

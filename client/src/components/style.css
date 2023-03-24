@@ -1,4 +1,122 @@
-.navbar {
+/* Add box-sizing reset and font family */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Add background color, font size, and line height */
+  body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Add basic button styles */
+  button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Add basic input styles */
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Add basic form styles */
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form > * {
+    margin-bottom: 20px;
+  }
+  
+  form > h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  form > label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Add basic list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  li > button {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  li > button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Add responsive styles */
+  @media screen and (min-width: 768px) {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    form > * {
+      flex: 1 1 50%;
+    }
+  
+    form > label {
+      flex-basis: 100%;
+    }
+  
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -34,4 +152,4 @@
     background-color: #fff;
     color: #333;
   }
-  
+    
